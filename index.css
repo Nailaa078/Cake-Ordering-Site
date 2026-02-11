@@ -1,0 +1,1061 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+                         /* <================= section 1 =================> */
+.headerdiv1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: white;
+    border-bottom: 2.5px solid  #ece6e6;
+}
+.headbar1 small{
+    text-align: center;
+    vertical-align: middle;
+}
+.lefticon , .righticon{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.headerdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px 60px;
+    background-color: white;  
+}
+
+.nav li{
+    display: inline-flex;
+    margin-right: 20px;
+}
+.nav li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 30px 10px;
+    font-weight: 50px; 
+    font-size: 15px;
+}
+.nav li a:hover{
+    text-decoration:2px underline pink;
+    cursor:arrow;
+}
+                          /* <================= section 2 =================> */
+.sec2{
+    background-color: #ece6e6;
+    display: flex;
+    /* flex-direction: row; */
+    padding: 10px 60px;
+    justify-content: space-around;
+}
+.sec2part1{
+    /* margin-left: 30px; */
+    align-content: center;
+    line-height: 40px;
+}
+.sec2part1 h1{
+    font-size: 30px;
+    font-weight: 300;
+}
+.sec2part1 p{
+    font-size:15px ;
+}
+.sec2part1 button{
+    color: black;
+    background-color: rgb(249, 198, 207);
+    border:1px solid pink;
+    outline-offset: 3px;
+    outline: 1px solid pink;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-top: 7px;
+}
+.sec2part1 button:hover{
+    transform: scale(1.1);
+}
+/* .sec2part2 img{
+    padding-right: 50px;
+} */
+                          /* <================= section 3 =================> */
+.sec3{
+    /* margin: 2px 40px; */
+    padding: 10px 160px;
+    line-height: 32px;
+}
+.sec3 h1{
+    font-size: 25px;
+    font-weight: 320;
+}
+.sec3 p{
+    font-size:15px ;
+}
+.sec3list{
+    display: flex;
+    flex-direction: row;
+}
+.sec3list li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 120px;
+}
+.sec3btn{
+    color: black;
+    background-color: pink;
+    border:1px solid pink;
+    outline-offset: 3px;
+    outline: 1px solid pink;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-top: 7px;
+}
+.sec3btn:hover{
+    transform: scale(1.1);
+}
+                          /* <================= section 4 =================> */
+
+.sec4part1{
+    text-align: center;
+}
+.sec4part1 h1{
+    font-size: 25px;
+    font-weight: 320;
+    line-height: 40px;
+}
+.sec4part1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.sec4part1 li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.sec4part1 li:hover{
+    text-decoration:2px underline pink;
+    cursor:grab;
+}
+.sec4cards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 10px 160px;
+}
+.sec4card{
+    line-height: 23px;
+    text-align: center;
+}
+.sec4card img{
+    height: 65%;
+    margin-top: 35px;
+}
+.sec4card p{
+    font-size: 15px;
+}
+.sec4card button{
+    color: black;
+    background-color: pink;
+    border:1px solid pink;
+    outline-offset: 3px;
+    outline: 1px solid pink;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-top: 7px;  
+}
+.sec4card button:hover{
+    transform: scale(1.1);
+}
+                          /* <================= section 5 =================> */
+.sec5{
+    padding: 50px 160px;
+}
+.sec5 h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 320;
+}
+.sec5cards{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.sec5card{
+    border: 2px solid pink;
+    padding: 18px 50px;
+    width: 300px;
+    border-radius: 8px;
+}
+.sec5card img{
+    margin-bottom:10px ;
+}
+.sec5card p{
+    font-size: small;
+}
+.sec5card h4{
+    color: pink;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+                          /* <================= section 6 =================> */
+.sec6{
+    padding: 50px 160px;
+}
+.sec6 h1{
+    text-align: center;
+}
+.sec6cards{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.sec6card{
+    width: 400px;
+    height: 230px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+}
+.innercards{
+    border: 2px solid pink;
+    display:grid;
+    grid-template-columns: repeat(2 ,.5fr);
+}
+.sec6innercard{
+    /* padding: 30px; */
+    padding: 15px 40px 10px 50px;
+}
+.sec6innercard h4{
+    color: pink;
+    line-height: 30px;
+    
+}
+.sec6innercard p{
+    font-size: small;
+}
+                          /* <================= section 7 =================> */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 45px;
+}
+@media only screen and (min-width: 760px) and (max-width: 1200px)
+{
+                         /* <================= section 1 @Media Query =================> */
+.headerdiv1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: white;
+    border-bottom: 2.5px solid  #ece6e6;
+}
+.headbar1 small{
+    text-align: center;
+    vertical-align: middle;
+}
+.lefticon , .righticon{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.headerdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px 60px;
+    background-color: white;  
+}
+
+.nav li{
+    display: inline-flex;
+    margin-right: 20px;
+}
+.nav li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 30px 10px;
+    font-weight: 50px; 
+    font-size: 15px;
+}
+.nav li a:hover{
+    text-decoration:2px underline pink;
+    cursor:arrow;
+}
+
+                          /* <================= section 2 @Media Query =================> */
+.sec2{
+    background-color: #ece6e6;
+    display: flex;
+    /* flex-direction: row; */
+    padding: 10px 60px;
+    justify-content: space-around;
+}
+.sec2part1{
+    /* margin-left: 30px; */
+    align-content: center;
+    line-height: 40px;
+}
+.sec2part1 h1{
+    font-size: 30px;
+    font-weight: 300;
+}
+.sec2part1 p{
+    font-size:15px ;
+}
+.sec2part1 button{
+    color: black;
+    background-color: rgb(249, 198, 207);
+    border:1px solid pink;
+    outline-offset: 3px;
+    outline: 1px solid pink;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-top: 7px;
+}
+.sec2part1 button:hover{
+    transform: scale(1.1);
+}
+/* .sec2part2 img{
+    padding-right: 50px;
+} */
+                          /* <================= section 3 @Media Query =================> */
+.sec3{
+    /* margin: 2px 40px; */
+    padding: 10px 160px;
+    line-height: 32px;
+}
+.sec3 h1{
+    font-size: 25px;
+    font-weight: 320;
+}
+.sec3 p{
+    font-size:15px ;
+}
+.sec3list{
+    display: flex;
+    flex-direction: row;
+}
+.sec3list li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 120px;
+}
+.sec3btn{
+    color: black;
+    background-color: pink;
+    border:1px solid pink;
+    outline-offset: 3px;
+    outline: 1px solid pink;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-top: 7px;
+}
+.sec3btn:hover{
+    transform: scale(1.1);
+}
+                          /* <================= section 4 @Media Query =================> */
+
+.sec4part1{
+    text-align: center;
+}
+.sec4part1 h1{
+    font-size: 25px;
+    font-weight: 320;
+    line-height: 40px;
+}
+.sec4part1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.sec4part1 li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.sec4part1 li:hover{
+    text-decoration:2px underline pink;
+    cursor:grab;
+}
+.sec4cards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 10px 160px;
+}
+.sec4card{
+    line-height: 23px;
+    text-align: center;
+}
+.sec4card img{
+    height: 65%;
+    margin-top: 35px;
+}
+.sec4card p{
+    font-size: 15px;
+}
+.sec4card button{
+    color: black;
+    background-color: pink;
+    border:1px solid pink;
+    outline-offset: 3px;
+    outline: 1px solid pink;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-top: 7px;  
+}
+.sec4card button:hover{
+    transform: scale(1.1);
+}
+                          /* <================= section 5 @Media Query =================> */
+.sec5{
+    padding: 50px 160px;
+}
+.sec5 h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 320;
+}
+.sec5cards{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.sec5card{
+    border: 2px solid pink;
+    padding: 18px 50px;
+    width: 300px;
+    border-radius: 8px;
+}
+.sec5card img{
+    margin-bottom:10px ;
+}
+.sec5card p{
+    font-size: small;
+}
+.sec5card h4{
+    color: pink;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+                          /* <================= section 6 @Media Query =================> */
+.sec6{
+    padding: 50px 160px;
+}
+.sec6 h1{
+    text-align: center;
+}
+.sec6cards{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.sec6card{
+    width: 400px;
+    height: 230px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+}
+.innercards{
+    border: 2px solid pink;
+    display:grid;
+    grid-template-columns: repeat(2 ,.5fr);
+}
+.sec6innercard{
+    /* padding: 30px; */
+    padding: 15px 40px 10px 50px;
+}
+.sec6innercard h4{
+    color: pink;
+    line-height: 30px;
+    
+}
+.sec6innercard p{
+    font-size: small;
+}
+                          /* <================= section 7 @Media Query =================> */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 45px;
+}
+}  
+                          /* <=================== For Mobiles ===================> */
+                          
+@media only screen and (max-width :480px)
+{ 
+                          /* <================= section 1 @Media Query=================> */ 
+ .headerdiv1{
+    display: none;
+ }   
+ .headerdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(211, 210, 210); 
+    width: 100%; 
+    height: 70px;
+    margin: 0;
+}
+.headerdiv img{
+    height: 40px;
+    margin-left: 2px;
+}
+  .nav {
+    flex: 1;
+    overflow-x: auto;                            /*  Make nav horizontally scrollable */
+    white-space: nowrap;
+  }
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 2px;
+}
+.nav li{
+      flex: 0 0 auto;                              /*  Prevent shrinking */
+}
+.nav li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 50px; 
+    font-size: 13px;
+}
+.nav li a:hover{
+    text-decoration:2px underline pink;
+}
+.nav li a:hover{
+    text-decoration:2px underline pink;
+    cursor:arrow;
+}
+                              /* <================= section 2 @Media Query=================> */ 
+.sec2{
+    background-color: #ece6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* padding: 10px 60px; */
+    /* justify-content: space-around; */
+}
+.sec2part1{
+    /* margin-left: 30px; */
+    justify-content: center;
+    line-height: 30px;
+}
+.sec2part1 h1{
+    font-size: 20px;
+    font-weight: 250;
+    text-align: center;
+}
+.sec2part1 p{
+    font-size:15px ;
+
+}
+.sec2part1 button{
+    color: black;
+    background-color: rgb(249, 198, 207);
+    border:1px solid pink;
+    outline-offset: 3px;
+    outline: 1px solid pink;
+    border-radius: 40px;
+    /* padding: 5px 10px; */
+    margin-left: 110px;
+}
+.sec2part1 button:hover{
+    transform: scale(1.1);
+}
+                              /* <================= section 3 @Media Query=================> */
+.sec3{
+    /* margin: 2px 40px; */
+    background-color: rgb(252, 169, 68);
+    padding: 10px 80px;
+    line-height: 20px;
+    /* font-size: medium; */
+}
+.sec3 h1{
+    font-size: 20px;
+    font-weight: 250;
+    text-align: center;
+}
+.sec3 p{
+    font-size: 15px;
+}
+.sec3list{
+    display: flex;
+    flex-direction: column;
+}
+.sec3list li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 15px;
+    /* margin-right: 120px; */
+}
+.sec3btn{
+    color: black;
+    background-color: pink;
+    border:1px solid pink;
+    outline-offset: 2px;
+    outline: 1px solid pink;
+    border-radius: 40px;
+    /* padding: 5px 10px;
+    margin-top: 7px; */
+} 
+.sec3btn:hover{
+    transform: scale(1.1);
+}                        
+                              /* <================= section 4 @Media Query=================> */ 
+.sec4{
+    background-color: rgb(234, 237, 237);
+}
+.sec4cards{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 5px;
+    }
+   .sec4part1 h1{
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 30px;
+}
+.sec4part1 ul{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 10px;
+} 
+.sec4part1 li:hover{
+    text-decoration:2px underline pink;
+    cursor:grab;
+}
+.sec4card img{
+    height: 20%;
+    margin-top: 23px;
+    justify-content: center;
+}
+.sec4card p{
+    font-size: 15px;
+    align-items: center;
+}
+.sec4card button{
+    color: black;
+    background-color: pink;
+    border:1px solid pink;
+    outline-offset: 2px;
+    outline: 1px solid pink;
+    border-radius: 40px;
+    padding: 2px 5px;
+    margin-top: 3px; 
+    align-items: center; 
+} 
+.sec4card button:hover{
+    transform: scale(1.1);
+}
+
+                          /* <================= section 5 @Media Query=================> */
+.sec5{
+    padding: 25px 80px;
+    background-color: rgb(252, 169, 68);
+}
+.sec5 h1{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 250;
+}
+.sec5cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 25px;
+    margin-left:2px;
+}
+.sec5card{
+    border: 2px solid pink;
+    /* padding: 9px 25px; */
+    width: 150px;
+    border-radius: 8px;
+}
+.sec5card img{
+    margin-bottom:5px ;
+}
+.sec5card p{
+    font-size: small;
+}
+.sec5card h4{
+    color: pink;
+    font-weight: 80;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+                          /* <================= section 6 @Media Query=================> */
+.sec6{
+    /* padding: 50px 160px; */
+    background-color: rgb(234, 237, 237);
+    
+}
+.sec6 h1{
+    text-align: center;
+    font-size: medium;
+    font-weight: 100;
+    line-height: 8px;
+}
+.sec6cards{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 20px;
+    gap: 5px;
+}
+.sec6card{
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+   padding-left: 1px;
+}
+.innercards{
+    border: 2px solid pink;
+    display:grid;
+    grid-template-columns: repeat(1,.5fr);
+}
+.sec6innercard{
+    /* padding: 30px; */
+    padding: 15px 40px 10px 50px;
+}
+.sec6innercard h4{
+    color: pink;
+    line-height: 30px;
+    
+}
+.sec6innercard p{
+    font-size: small;
+}
+
+                          /* <================= section 7 @Media Query=================> */
+.footer{
+    background-color: rgb(252, 169, 68);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}  
+.footer img{
+    height: 60px;
+} 
+.footer p{
+    font-size: small;
+}                   
+}
+
+                          /* <=================== For Tablets ===================> */
+@media screen and (min-width: 481px) and (max-width: 760px)
+{
+                          /* <================= section 1 @Media Query=================> */   
+.headerdiv1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(197, 139, 139);
+    border-bottom: 2.5px solid  #ece6e6;
+    /* width: 100%; */
+}
+.headbar1 small{
+    text-align: center;
+    vertical-align: middle;
+}
+.lefticon , .righticon{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+ .headerdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(197, 139, 139); 
+    width: 100%; 
+    height: 70px;
+    margin: 0px;
+    /* padding: 15px; */
+}
+.headerdiv img{
+    height: 45px;
+    margin-left: 18px;
+}
+  .nav {
+    flex: 1;
+    overflow-x: auto;                            /*  Make nav horizontally scrollable */
+    white-space: nowrap;
+  }
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 2px;
+    margin-left: 12px;
+}
+.nav li{
+      flex: 0 0 auto;                              /*  Prevent shrinking */
+}
+.nav li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 70px; 
+    font-size: 15px;
+}
+.nav li a:hover{
+    text-decoration:2px underline pink;
+}
+.nav li a:hover{
+    text-decoration:2px underline pink;
+    cursor:arrow;
+}
+                            /* <================= section 2 @Media Query=================> */
+.sec2{
+    background-color: #f2d7d7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.sec2part1{
+    /* margin-left: 30px; */
+    justify-content: center;
+    line-height: 40px;
+}
+.sec2part1 h1{
+    font-size: 25px;
+    font-weight: 270;
+    text-align: center;
+}
+.sec2part1 p{
+    font-size:17px ;
+
+}
+.sec2part1 button{
+    color: black;
+    background-color: rgb(197, 139, 139);
+    border:1px solid rgb(197, 139, 139);
+    outline-offset: 3px;
+    outline: 1px solid rgb(197, 139, 139);
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-left: 110px;
+}
+.sec2part1 button:hover{
+    transform: scale(1.1);
+}
+                            /* <================= section 3 @Media Query=================> */
+.sec3{
+    background-color: rgb(197, 139, 139);
+    line-height: 25px;
+    font-size: medium;
+}
+.sec3 h1{
+    font-size: 25px;
+    font-weight: 270;
+    text-align: center;
+}
+.sec3 p{
+    font-size:14px ;
+}
+.sec3list{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+.sec3list li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 15px;
+    margin-right: 12px;
+    /* margin-left:0px ; */
+}
+.sec3btn{
+    color: black;
+    background-color: #f2d7d7;
+    border:1px solid #f2d7d7;
+    outline-offset: 2px;
+    outline: 1px solid #f2d7d7;
+    border-radius: 40px;
+    /* padding: 5px 10px;
+    margin-top: 7px; */
+} 
+.sec3btn:hover{
+    transform: scale(1.1);
+}     
+                            /* <================= section 4 @Media Query=================> */
+.sec4{
+    background-color: #f2d7d7;
+}
+.sec4cards{
+        display: grid;
+        grid-template-columns: auto auto;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 15px;
+        padding: 50px;
+    }
+   .sec4part1 h1{
+    font-size: 25px;
+    font-weight: 270;
+    text-align: center;
+}
+.sec4part1 ul{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 10px;
+} 
+.sec4part1 li:hover{
+    text-decoration:2px underline  rgb(197, 139, 139);
+    cursor:grab;
+}
+.sec4card img{
+    height: 230px;
+    margin-top: 23px;
+    justify-content: center;
+}
+.sec4card p{
+    font-size: 18px;
+    align-items: center;
+}
+.sec4card button{
+    color: black;
+    background-color:  rgb(197, 139, 139);
+    border:1px solid  rgb(197, 139, 139);
+    outline-offset: 2px;
+    outline: 1px solid  rgb(197, 139, 139);
+    border-radius: 40px;
+} 
+.sec4card button:hover{
+    transform: scale(1.1);
+}
+                            /* <================= section 5 @Media Query=================> */
+.sec5{
+    padding: 25px 80px;
+    background-color: rgb(197, 139, 139);
+}
+.sec5 h1{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 250;
+}
+.sec5cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left:2px;
+}
+.sec5card{
+    border: 2px solid #f2d7d7;
+    /* padding: 9px 25px; */
+    width: 150px;
+    border-radius: 8px;
+}
+.sec5card img{
+    margin-bottom:5px ;
+}
+.sec5card p{
+    font-size: small;
+}
+.sec5card h4{
+    color: #f2d7d7;
+    font-weight: 80;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+                            /* <================= section 6 @Media Query=================> */
+.sec6{
+    /* padding: 50px 160px; */
+    background-color: #f2d7d7;
+    
+}
+.sec6 h1{
+    text-align: center;
+    font-size: medium;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.sec6cards{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 20px;
+    gap: 5px;
+}
+.sec6card{
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+   padding-left: 1px;
+}
+.innercards{
+    border: 2px solid rgb(197, 139, 139);
+    display:grid;
+    grid-template-columns: repeat(2,.5fr);
+}
+.sec6innercard{
+    /* width: 50px; */
+    padding: 20px;
+    /* padding: 15px 40px 10px 50px; */
+}
+.sec6innercard h4{
+    color: rgb(197, 139, 139);
+    line-height: 20px;  
+}
+.sec6innercard p{
+    font-size: small;
+}                           
+                            /* <================= section 7 @Media Query=================> */
+.footer{
+    background-color: rgb(197, 139, 139);
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}  
+.footer img{
+    height: 60px;
+} 
+.footer p{
+    font-size: small;
+}  
+}
