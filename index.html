@@ -3,168 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order our cakes</title>
+    <title>Order our cakes | COCO by Haani</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-                             <!-- <================= section 1 =================>  -->
-        <div class="headerdiv1">
-            <span class="headbar1">
-                <small>Follow us</small>
-                <img src="../Cake Website/pictures/f-icon.png" alt="FB" class="lefticon">
-                <img src="../Cake Website/pictures/twitter-icon.png" alt="Twitter"  class="lefticon">
-                <img src="../Cake Website/pictures/insta-icon.png" alt="insta" class="lefticon">
-            </span>
-            <span class="headbar2">
-                <img src="../Cake Website/pictures/phone-icon.png" alt="contact" class="lefticon">
-                <small>call us:</small>
-                <small>+923 289102093</small>
-                <small>login</small>
-                <img src="../Cake Website/pictures/user-icon.png" alt="userDP" class="righticon">
-                <small>Card</small>
-                <img src="" alt="">
-            </span>
+    <div class="topbar">
+        <div class="wrap">
+            <div class="group">
+                <span class="hide-sm">Follow us</span>
+                <a href="#" aria-label="Facebook"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.5-3.2h-3.2V8.7c0-.9.4-1.7 1.8-1.7h1.5V4.2S15.5 4 14.3 4C11.8 4 10.2 5.5 10.2 8.2v2.6H7.5V14h2.7v8z"/></svg></a>
+                <a href="#" aria-label="X (Twitter)"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.2 3h3.1l-6.8 7.7L22.5 21h-6.3l-4.9-6.4L5.6 21H2.5l7.2-8.3L2 3h6.4l4.4 5.9zm-1.1 16.2h1.7L7.3 4.7H5.5z"/></svg></a>
+                <a href="#" aria-label="Instagram"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.3-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+            </div>
+            <div class="group">
+                <a href="tel:+923289102093"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg><span>+923 289102093</span></a>
+                <a href="#"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/></svg><span class="hide-sm">Login</span></a>
+                <a href="#" aria-label="Cart"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM1 2v2h2l3.6 7.6-1.4 2.4A2 2 0 0 0 7 17h12v-2H7.4l1.1-2h7.5a2 2 0 0 0 1.75-1l3.6-6.5A1 1 0 0 0 20.5 4H5.2l-.9-2z"/></svg><span>Cart (<span id="cart-count">0</span>)</span></a>
+            </div>
         </div>
-        <div>
-            <nav class="headerdiv">
-                <img src="../Cake Website/pictures/logo.png" alt="logo">
-                <div class="nav">
+    </div>
+
+    <header class="site-header">
+        <div class="wrap">
+            <a class="logo" href="index.html">COCO<small>by Haani</small></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+            <nav class="nav" id="nav" aria-label="Main">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
                     <li><a href="About.html">About us</a></li>
-                    <li><a href="Cake.html">Cake</a></li>
-                    <li><a href="Cupcakes.html">CupCake</a></li>
-                    <li><a href="Tasts.html">Tasts</a></li>
-                    <li><a href="#">Eclier</a></li>
-                    <li><a href="#">Term & Condition</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="Cake.html">Cakes</a></li>
+                    <li><a href="Cupcakes.html">Cupcakes</a></li>
+                    <li><a href="Tasts.html">Tastes</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
                 </ul>
-                </div>
-            </nav> 
+            </nav>
         </div>
-                             <!-- <================= section 2 =================>  -->
-    <section>
-        <div class="sec2">
-            <div class="sec2part1">
-                <h1>Delicious cakes</h1>
-                <h1>Ger your own slice of heaven</h1>
-                <p>According to an individual recipe for every taste</p>
-                <button>Order Now</button>
-            </div>
-            <div class="sec2part2">
-                <img src="../Cake Website/pictures/sec2.jpg" alt="cake">
-            </div>
-        </div>
-    </section>
-                             <!-- <================= section 3 =================>  -->
-    <section>
-        <div class="sec3">
-            <h1>About COCO by Haani</h1>
-            <p>Coco bt Haani is an online cake and desert shop providing minimal and modern buttercream cakes, Eclairs, tarts,cupcakes,macrons and all sort of breakfast pastries.</p>
-            <p>We are located in Landon and all products are handcrafted and made to order.</p>
-            <ul class="sec3list">
-                <li><img src="../Cake Website/pictures/tike-icon.png" alt="tick"> Delicious</li>
-                <li><img src="../Cake Website/pictures/tike-icon.png" alt="tick"> Art & Beauty</li>
-                <li><img src="../Cake Website/pictures/tike-icon.png" alt="tick"> Mood Boost</li>
-            </ul>
-            <button class="sec3btn">Read more</button>
-        </div>
-    </section>
-                             <!-- <================= section 4 =================>  -->
-    <section class="sec4">
-        <div class="sec4part1">
-            <h1>Our Best Products</h1>
-            <ul>
-                <li>Cake</li>
-                <li>Cupcakes</li>
-                <li>Eclairs</li>
-                <li>Tasts</li>
-            </ul>
-        </div>
-        <div class="sec4cards">
-            <div class="sec4card">
-                <img src="../Cake Website/pictures/image1.jpg" alt="cake">
-                <p>Cake Name</p>
-                <p>50.00</p>
-                <button>Order Now</button>
-            </div>
-            <div class="sec4card">
-                <img src="../Cake Website/pictures/image2.jpg" alt="cake">
-                <p>Cake Name</p>
-                <p>50.00</p>
-                <button>Order Now</button>
-            </div>
-            <div class="sec4card">
-                <img src="../Cake Website/pictures/image3.jpg" alt="cake">
-                <p>Cake Name</p>
-                <p>50.00</p>
-                <button>Order Now</button>
-            </div>
-            <div class="sec4card">
-                <img src="../Cake Website/pictures/image4.jpg" alt="cake">
-                <p>Cake Name</p>
-                <p>50.00</p>
-                <button>Order Now</button>
-            </div>
-        </div>
-    </section> 
-                             <!-- <================= section 5 =================>  -->
-    <section>
-        <div class="sec5">
-            <h1>What Our Customer Say?</h1>
-            <div class="sec5cards">
-                <div class="sec5card">
-                    <!-- <img src="arrow-left.png" alt="slider"> -->
-                    <img src="../Cake Website/pictures/customar-image.png" alt="Customer"> 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et maxime perferendis laborum. Explicabo necessitatibus culpa incidunt soluta doloribus molestias laudantium temporibus.</p>
-                    <h4>George Clint</h4>
-                    <p>customer</p>
-                </div>
-                <div class="sec5card">
-                    <!-- <img src="arrow-left.png" alt="slider"> -->
-                    <img src="../Cake Website/pictures/customar-image.png" alt="Customer"> 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et maxime perferendis laborum. Explicabo necessitatibus culpa incidunt soluta doloribus molestias laudantium temporibus.</p>
-                    <h4>George Clint</h4>
-                    <p>customer</p>
-                </div>
-            </div>
-        </div>                    
-    </section>
-                             <!-- <================= section 6 =================>  -->
-    <section>
-        <div class="sec6">
-            <h1>Contact Us</h1>
-            <div class="sec6cards">
-                <div class="sec6card">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.038215639964!2d-97.2714815!3d32.755425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e7129f4cb8d03%3A0x7e5e9e64ab55ea15!2sGateway%20Park!5e0!3m2!1sen!2sus!4v1625606584660!5m2!1sen!2su" frameborder="0" width="auto"  height="auto"></iframe>
-                </div>
-                <div class="sec6card innercards">
-                    <div class="sec6innercard">
-                        <h4>Address</h4>
-                        <p>Shop No 123</p>
-                        <p>Street 1 UK</p>
-                    </div>
-                    <div class="sec6innercard">
-                        <h4>Opening Time</h4>
-                        <p>Mon-Sun</p>
-                        <p>from 08:00 to 21:00</p>
-                    </div>
-                    <div class="sec6innercard">
-                        <h4>Telephone</h4>
-                        <p>+44 7764 563443</p>
-                    </div>
-                    <div class="sec6innercard">
-                        <h4>E-mail</h4>
-                        <p>haani.mohsin@gmail.com</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="wrap">
+                <div>
+                    <h1>Delicious cakes. Get your own slice of heaven.</h1>
+                    <p>A recipe for every taste, handmade in London and baked to order.</p>
+                    <div class="hero-buttons">
+                        <a class="btn" href="Cake.html">Order now</a>
+                        <a class="btn btn-soft" href="Tasts.html">See flavours</a>
                     </div>
                 </div>
+                <div class="hero-photo"><img src="https://unsplash.com/photos/ShPOb05uM0Y/download?w=900" alt="A cake with white frosting and sprinkles" loading="lazy" style="object-position:center" onerror="this.style.display='none'"></div>
             </div>
+        </section>
+
+        <section class="section" style="padding-bottom:40px">
+            <div class="wrap about-grid">
+                <div>
+                    <h2>About COCO by Haani</h2>
+                    <p>COCO by Haani is an online cake and dessert shop making minimal, modern buttercream cakes, éclairs, tarts, cupcakes, macarons and all sorts of breakfast pastries.</p>
+                    <p>We are based in London. Everything is handcrafted and made to order.</p>
+                    <ul class="perks">
+                        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Delicious</li>
+                        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Art and beauty</li>
+                        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> A mood boost</li>
+                    </ul>
+                    <a class="btn" href="About.html">Read more</a>
+                </div>
+                <div class="photo"><img src="https://unsplash.com/photos/qXYizgnCiRE/download?w=900" alt="A white buttercream cake with colourful icing" loading="lazy" style="object-position:center" onerror="this.style.display='none'"></div>
+            </div>
+        </section>
+        <section class="section" style="padding-top:0">
+            <div class="wrap">
+                <div class="section-head">
+                    <div><h2>Our best products</h2></div>
+                    <a class="link-arrow" href="Cake.html">See all cakes</a>
+                </div>
+                <div class="grid">
+                <article class="card">
+                    <div class="photo"><img src="https://unsplash.com/photos/UhpCcBzRaEs/download?w=600" alt="Fruit cream cake" loading="lazy" style="object-position:center" onerror="this.style.display='none'"></div>
+                    <div class="card-body">
+                        <h3>Fruit cream cake</h3>
+                        <p>Soft sponge, whipped cream and fresh fruit.</p>
+                        <div class="card-foot">
+                            <span class="price">£50.00</span>
+                            <button class="btn add-to-cart" type="button" data-name="Fruit cream cake">Order now</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="photo"><img src="https://unsplash.com/photos/GQvNc4bDRYw/download?w=600" alt="Pink layer cake" loading="lazy" style="object-position:center" onerror="this.style.display='none'"></div>
+                    <div class="card-body">
+                        <h3>Pink layer cake</h3>
+                        <p>Three layers of vanilla and strawberry buttercream.</p>
+                        <div class="card-foot">
+                            <span class="price">£50.00</span>
+                            <button class="btn add-to-cart" type="button" data-name="Pink layer cake">Order now</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="photo"><img src="https://unsplash.com/photos/pGM4sjt_BdQ/download?w=600" alt="Teal cupcakes" loading="lazy" style="object-position:center" onerror="this.style.display='none'"></div>
+                    <div class="card-body">
+                        <h3>Teal cupcakes</h3>
+                        <p>Six vanilla cupcakes with sprinkles.</p>
+                        <div class="card-foot">
+                            <span class="price">£50.00</span>
+                            <button class="btn add-to-cart" type="button" data-name="Teal cupcakes">Order now</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="photo"><img src="https://unsplash.com/photos/RE2xiNk3KFY/download?w=600" alt="Rainbow cupcakes" loading="lazy" style="object-position:center" onerror="this.style.display='none'"></div>
+                    <div class="card-body">
+                        <h3>Rainbow cupcakes</h3>
+                        <p>A mixed box of six, each a different colour.</p>
+                        <div class="card-foot">
+                            <span class="price">£50.00</span>
+                            <button class="btn add-to-cart" type="button" data-name="Rainbow cupcakes">Order now</button>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+        <section class="section reviews">
+            <div class="wrap">
+                <h2>What our customers say</h2>
+                <div class="review-grid">
+                    <figure class="review">
+                        <blockquote>The cake looked even better than the photo, and it was gone within the hour. Ordering was simple.</blockquote>
+                        <figcaption class="who"><div class="avatar" aria-hidden="true">G</div><div>George Clint<span>Customer</span></div></figcaption>
+                    </figure>
+                    <figure class="review">
+                        <blockquote>Light buttercream, not too sweet. We ordered cupcakes for a party and everyone asked where they came from.</blockquote>
+                        <figcaption class="who"><div class="avatar" aria-hidden="true">G</div><div>George Clint<span>Customer</span></div></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="contact">
+            <div class="wrap">
+                <h2>Contact us</h2>
+                <div class="contact-grid">
+                    <div class="map">
+                        <iframe title="Map of our shop in London" loading="lazy" src="https://www.google.com/maps?q=London%2C%20UK&amp;output=embed"></iframe>
+                    </div>
+                    <div class="info">
+                        <div><h3>Address</h3><p>Shop No 123<br>Street 1, UK</p></div>
+                        <div><h3>Opening time</h3><p>Mon–Sun<br>08:00 to 21:00</p></div>
+                        <div><h3>Telephone</h3><p>+44 7764 563443</p></div>
+                        <div><h3>E-mail</h3><p>haani.mohsin@gmail.com</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <a class="logo" href="index.html">COCO<small>by Haani</small></a>
+            <p>Copyright © 2023. All rights reserved.</p>
         </div>
-    </section>
-                             <!-- <================= section 7 =================>  -->
-    <footer class="footer">
-        <img src="../Cake Website/pictures/logo.png" alt="Footer Logo">
-        <p>Copyright © 2023 . All rights reserved</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
